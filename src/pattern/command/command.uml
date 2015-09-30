@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-356.0" y="134.0">pattern.command.domain.Light</node>
+    <node x="632.0" y="8.0">pattern.command.RemoteControl</node>
+    <node x="382.0" y="139.5">pattern.command.cmmds.NoCommand</node>
+    <node x="0.0" y="104.0">pattern.command.cmmds.LightOffCommand</node>
+    <node x="191.0" y="104.0">pattern.command.cmmds.LightOnCommand</node>
+    <node x="-358.0" y="4.0">pattern.command.Main</node>
+    <node x="209.0" y="0.0">pattern.command.Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pattern.command.cmmds.LightOffCommand" target="pattern.command.Command">
+      <point x="0.0" y="-62.5" />
+      <point x="85.5" y="79.0" />
+      <point x="231.5" y="79.0" />
+      <point x="-45.0" y="27.0" />
+    </edge>
+    <edge source="pattern.command.RemoteControl" target="pattern.command.Command">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pattern.command.cmmds.LightOnCommand" target="pattern.command.Command">
+      <point x="0.0" y="-62.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="pattern.command.RemoteControl" target="pattern.command.cmmds.NoCommand">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pattern.command.cmmds.LightOnCommand" target="pattern.command.domain.Light">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pattern.command.cmmds.LightOffCommand" target="pattern.command.domain.Light">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pattern.command.cmmds.NoCommand" target="pattern.command.Command">
+      <point x="0.0" y="-27.0" />
+      <point x="449.5" y="79.0" />
+      <point x="321.5" y="79.0" />
+      <point x="45.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="273.0" y="148.0" />
+  <SelectedNodes>
+    <node>pattern.command.domain.Light</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

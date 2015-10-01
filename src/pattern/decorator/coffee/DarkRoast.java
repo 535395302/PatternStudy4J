@@ -9,11 +9,7 @@ import pattern.decorator.coffee.Beverage;
 public class DarkRoast extends Beverage {
 
     public DarkRoast() {
-    }
-
-    @Override
-    public String getDesc() {
-        return "Dark Roast";
+        desc="Dark Roast(深烘焙)";
     }
 
     @Override

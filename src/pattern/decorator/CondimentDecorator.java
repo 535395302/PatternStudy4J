@@ -1,6 +1,6 @@
 package pattern.decorator;
 
-import pattern.decorator.component.Beverage;
+import pattern.decorator.coffee.Beverage;
 
 /**
  * @author Tian

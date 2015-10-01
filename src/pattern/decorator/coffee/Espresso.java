@@ -10,7 +10,7 @@ import pattern.decorator.coffee.Beverage;
  */
 public class Espresso extends Beverage {
     public Espresso() {
-        desc = "Espresso";
+        desc = "Espresso(浓咖啡)";
     }
 
     @Override

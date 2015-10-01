@@ -7,7 +7,7 @@ package pattern.decorator.coffee;
  * @date 2015-09-30 17:51
  */
 public abstract class Beverage {
-    String desc = "Unknown bererage";
+    public String desc = "Unknown bererage";
 
     public String getDesc() {
         return desc;

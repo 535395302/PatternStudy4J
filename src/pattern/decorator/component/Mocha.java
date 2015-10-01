@@ -1,8 +1,10 @@
-package pattern.decorator;
+package pattern.decorator.component;
 
-import pattern.decorator.component.Beverage;
+import pattern.decorator.CondimentDecorator;
+import pattern.decorator.coffee.Beverage;
 
 /**
+ * 配料-摩卡
  * @author Tian
  * @version 1.0
  * @date 2015-09-30 18:03

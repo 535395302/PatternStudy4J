@@ -1,6 +1,7 @@
-package pattern.decorator.component;
+package pattern.decorator.coffee;
 
 /**
+ * 饮料
  * @author Tian
  * @version 1.0
  * @date 2015-09-30 17:51

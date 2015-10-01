@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pattern.decorator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="272.0">pattern.decorator.Mocha</node>
+    <node x="206.0" y="0.0">pattern.decorator.component.Beverage</node>
+    <node x="32.0" y="158.5">pattern.decorator.CondimentDecorator</node>
+    <node x="379.0" y="147.0">pattern.decorator.component.HouseBlend</node>
+    <node x="217.0" y="147.0">pattern.decorator.component.Espresso</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pattern.decorator.CondimentDecorator" target="pattern.decorator.component.Beverage">
+      <point x="0.0" y="-26.0" />
+      <point x="114.5" y="122.0" />
+      <point x="233.33333333333334" y="122.0" />
+      <point x="-54.66666666666666" y="48.5" />
+    </edge>
+    <edge source="pattern.decorator.Mocha" target="pattern.decorator.CondimentDecorator">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="pattern.decorator.component.Espresso" target="pattern.decorator.component.Beverage">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="pattern.decorator.component.HouseBlend" target="pattern.decorator.component.Beverage">
+      <point x="0.0" y="-37.5" />
+      <point x="459.0" y="122.0" />
+      <point x="342.66666666666663" y="122.0" />
+      <point x="54.66666666666663" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="269.5" y="196.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

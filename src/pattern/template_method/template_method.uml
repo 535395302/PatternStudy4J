@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pattern.template_method</OriginalElement>
+  <nodes>
+    <node x="0.0" y="309.0">pattern.template_method.Test</node>
+    <node x="0.0" y="190.0">pattern.template_method.Coffee</node>
+    <node x="22.5" y="0.0">pattern.template_method.CafffeineBeverage</node>
+    <node x="163.0" y="190.0">pattern.template_method.Tea</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pattern.template_method.Coffee" target="pattern.template_method.CafffeineBeverage">
+      <point x="0.0" y="-37.0" />
+      <point x="71.5" y="165.0" />
+      <point x="87.75" y="165.0" />
+      <point x="-65.25" y="70.0" />
+    </edge>
+    <edge source="pattern.template_method.Tea" target="pattern.template_method.CafffeineBeverage">
+      <point x="0.0" y="-37.0" />
+      <point x="234.5" y="165.0" />
+      <point x="218.25" y="165.0" />
+      <point x="65.25" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="153.0" y="111.5" />
+  <SelectedNodes>
+    <node>pattern.template_method.Coffee</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

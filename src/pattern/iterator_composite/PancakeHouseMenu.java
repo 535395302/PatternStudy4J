@@ -1,4 +1,4 @@
-package pattern.iterator;
+package pattern.iterator_composite;
 
 import java.util.ArrayList;
 

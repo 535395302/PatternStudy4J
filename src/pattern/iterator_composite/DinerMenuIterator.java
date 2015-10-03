@@ -1,4 +1,4 @@
-package pattern.iterator;
+package pattern.iterator_composite;
 
 /**
  * Created by tian on 10/3/15.

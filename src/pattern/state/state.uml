@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pattern.state</OriginalElement>
+  <nodes>
+    <node x="385.0" y="773.0">pattern.state.SoldState</node>
+    <node x="0.0" y="0.0">pattern.state.GumballMachine</node>
+    <node x="770.0" y="773.0">pattern.state.SoldOutState</node>
+    <node x="0.0" y="982.0">pattern.state.Main</node>
+    <node x="0.0" y="773.0">pattern.state.NoQuarterState</node>
+    <node x="1155.0" y="773.0">pattern.state.HasQuarterState</node>
+    <node x="642.0" y="605.0">pattern.state.State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pattern.state.HasQuarterState" target="pattern.state.State">
+      <point x="0.0" y="-82.0" />
+      <point x="1337.5" y="743.0" />
+      <point x="848.5" y="743.0" />
+      <point x="88.5" y="59.0" />
+    </edge>
+    <edge source="pattern.state.NoQuarterState" target="pattern.state.State">
+      <point x="0.0" y="-82.0" />
+      <point x="182.5" y="743.0" />
+      <point x="671.5" y="743.0" />
+      <point x="-88.5" y="59.0" />
+    </edge>
+    <edge source="pattern.state.SoldState" target="pattern.state.State">
+      <point x="0.0" y="-82.0" />
+      <point x="567.5" y="753.0" />
+      <point x="730.5" y="753.0" />
+      <point x="-29.5" y="59.0" />
+    </edge>
+    <edge source="pattern.state.SoldOutState" target="pattern.state.State">
+      <point x="0.0" y="-82.0" />
+      <point x="952.5" y="753.0" />
+      <point x="789.5" y="753.0" />
+      <point x="29.5" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4890282131661442" x="760.875" y="406.1314102564103" />
+  <SelectedNodes>
+    <node>pattern.state.SoldState</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

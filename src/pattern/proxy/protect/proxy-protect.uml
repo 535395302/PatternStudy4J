@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pattern.proxy.protect</OriginalElement>
+  <nodes>
+    <node x="0.0" y="525.0">pattern.proxy.protect.OwnerInvocationHandler</node>
+    <node x="339.0" y="0.0">pattern.proxy.protect.Test</node>
+    <node x="0.0" y="265.0">pattern.proxy.protect.PersionBeanImpl</node>
+    <node x="0.0" y="0.0">pattern.proxy.protect.PersionBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pattern.proxy.protect.PersionBeanImpl" target="pattern.proxy.protect.PersionBean">
+      <point x="0.0" y="-107.5" />
+      <point x="0.0" y="107.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7979966611018364" x="260.0" y="289.5" />
+  <SelectedNodes>
+    <node>pattern.proxy.protect.PersionBeanImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

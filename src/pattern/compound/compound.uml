@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pattern.compound</OriginalElement>
+  <nodes>
+    <node x="-32.0" y="1893.0">pattern.observer.Observer</node>
+    <node x="2037.0" y="926.0">pattern.compound.observable.Observable</node>
+    <node x="955.0" y="658.0">pattern.compound.domain.RedheadDuck</node>
+    <node x="1017.0" y="1333.0">pattern.compound.interf.Quackable</node>
+    <node x="545.0" y="286.0">pattern.compound.domain.MallardDuck</node>
+    <node x="-38.0" y="1653.0">pattern.compound.observable.Observer</node>
+    <node x="259.5" y="1510.0">pattern.compound.DuckSimulator</node>
+    <node x="1675.0" y="938.0">pattern.compound.domain.DuckCall</node>
+    <node x="300.0" y="1733.0">pattern.compound.domain.Goose</node>
+    <node x="1291.0" y="818.5">pattern.compound.factory.AbstractDuckFactory</node>
+    <node x="-38.0" y="1533.0">pattern.compound.observable.Quackologist</node>
+    <node x="931.0" y="458.5">pattern.compound.factory.DuckFactory</node>
+    <node x="531.0" y="818.5">pattern.compound.factory.CountingDuckFactory</node>
+    <node x="955.0" y="58.0">pattern.compound.domain.RubberDuck</node>
+    <node x="963.5" y="1474.5">pattern.compound.adapter.GooseAdapter</node>
+    <node x="2028.0" y="-38.5">pattern.compound.observable.QuackObservable</node>
+    <node x="546.0" y="1063.0">pattern.compound.decorator.QuackCounter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pattern.compound.domain.RedheadDuck" target="pattern.compound.interf.Quackable">
+      <point x="0.0" y="62.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="pattern.compound.observable.Quackologist" target="pattern.compound.observable.Observer">
+      <point x="0.0" y="27.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="pattern.compound.decorator.QuackCounter" target="pattern.compound.interf.Quackable">
+      <point x="0.0" y="97.0" />
+      <point x="680.0" y="1340.0" />
+      <point x="-63.0" y="-20.0" />
+    </edge>
+    <edge source="pattern.compound.factory.DuckFactory" target="pattern.compound.factory.AbstractDuckFactory">
+      <point x="149.0" y="40.0" />
+      <point x="1440.0" y="560.0" />
+      <point x="0.0" y="-61.5" />
+    </edge>
+    <edge source="pattern.compound.domain.MallardDuck" target="pattern.compound.interf.Quackable">
+      <point x="-135.0" y="-0.0" />
+      <point x="440.0" y="360.0" />
+      <point x="440.0" y="1346.6666666666667" />
+      <point x="-63.0" y="-13.333333333333314" />
+    </edge>
+    <edge source="pattern.compound.domain.DuckCall" target="pattern.compound.interf.Quackable">
+      <point x="0.0" y="62.0" />
+      <point x="1800.0" y="1360.0" />
+      <point x="63.0" y="-0.0" />
+    </edge>
+    <edge source="pattern.compound.adapter.GooseAdapter" target="pattern.compound.interf.Quackable">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="pattern.compound.interf.Quackable" target="pattern.compound.observable.QuackObservable">
+      <point x="-63.0" y="-0.0" />
+      <point x="320.0" y="1360.0" />
+      <point x="320.0" y="0.0" />
+      <point x="-132.0" y="-0.0" />
+    </edge>
+    <edge source="pattern.compound.domain.RubberDuck" target="pattern.compound.interf.Quackable">
+      <point x="-125.0" y="-0.0" />
+      <point x="400.0" y="120.0" />
+      <point x="400.0" y="1353.3333333333333" />
+      <point x="-63.0" y="-6.666666666666686" />
+    </edge>
+    <edge source="pattern.compound.observable.Observable" target="pattern.compound.observable.QuackObservable">
+      <point x="0.0" y="-74.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="pattern.compound.factory.CountingDuckFactory" target="pattern.compound.factory.AbstractDuckFactory">
+      <point x="149.0" y="-0.0" />
+      <point x="-149.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7202392821535394" x="1160.3039867109635" y="596.2221760797343" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
